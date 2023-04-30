@@ -49,6 +49,16 @@ button {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 4rem;
+  box-sizing: border-box;
   
 
+}
+button:hover {
+  box-shadow: 1px 1px 5px 1px #4ECCA3;
+
+}
+button:active {
+  transform: scaleY(3px) scale(1.01);
+  
+  cursor: pointer;
 }
